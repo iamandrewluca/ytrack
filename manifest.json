@@ -1,0 +1,17 @@
+{
+	"manifest_version": 3,
+	"short_name": "ytrack",
+	"name": "YouTube Track & Persist",
+	"description": "Track your progress on YouTube videos and persist it.",
+	"version": "0.1",
+	"content_scripts": [
+		{
+			"js": [
+				"content.js"
+			],
+			"matches": [
+				"https://*.youtube.com/*"
+			]
+		}
+	]
+}
